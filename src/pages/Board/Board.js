@@ -19,7 +19,7 @@ function Board() {
     async function fetchData() {
       try {
         const tasks = await fetch(
-          `https://my-json-server.typicode.com/PackPublising/React-Projects-Second-Edition/tasks`
+          `https://my-json-server.typicode.com/PacktPublishing/React-Projects-Second-Edition/tasks`
         );
 
         const result = await tasks.json();
